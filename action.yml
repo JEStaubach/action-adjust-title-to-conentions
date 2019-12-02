@@ -1,0 +1,12 @@
+name: 'action-adjust-title-to-conventions'
+description: 'When labeled with a convention, update the title to include convention text.'
+branding:
+  icon: 'move'  
+  color: 'purple'
+inputs:
+  action-token:
+    description: 'Token for the repo. Can be passed in using {{ secrets.GITHUB_TOKEN }}'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

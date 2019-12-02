@@ -1,1 +1,1 @@
-# action-adjust-title-to-conentions
+# action-adjust-title-to-conventions
